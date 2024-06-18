@@ -1,0 +1,101 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+.post {
+    padding: 100px;
+    background-color: white;
+    height: 525px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post-header{
+    display: flex;
+  }
+
+  .parrafo1 {
+    margin-top: -80px;
+    margin-left: -90px;
+  }
+
+  .parrafo2 {
+    margin-top: -60px;
+    margin-left: -53px;
+  }
+
+  #icono1 {
+    font-size: 35px;
+    margin-top: -75px;
+    margin-right: 100px;
+    margin-left: -80px;
+}
+
+#icono2 {
+    font-size: 35px;
+    margin-top: -80px;
+    margin-left: 350px;
+
+}
+
+
+.post-image img {
+    width: 500px;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -25px;
+    object-fit: cover;
+
+}
+
+.iconos {
+  display: flex;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.iconolike {
+  margin-left: -82px;
+}
+
+.iconocomentario {
+  margin-left: 7px;
+}
+
+.iconocompartir {
+  margin-left: 9px;
+}
+
+.iconofavorito {
+  margin-left: 290px;
+}
+
+.comentario1 {
+  margin-top: 30px;
+  margin-left: -85px;
+  white-space: nowrap;
+}
+
+.comentario2 {
+  margin-left: -85px;
+  white-space: nowrap;
+}
+
+.c2 {
+  margin-top: -17px;
+}
+
+.c3 {
+  margin-top: -17px;
+}
+
+.c4 {
+  margin-top: -17px;
+}
+
+.c5 {
+  margin-top: -17px;
+}
