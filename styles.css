@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+.post {
+  padding: 100px;
+  background-color: white;
+  height: 525px;
+  width: 300px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-text {
+  margin: 0;
+}
+
+.post-title {
+  margin-top: -80px;
+  margin-left: -90px;
+}
+
+.post-author {
+  margin-top: -60px;
+  margin-left: -53px;
+}
+
+#icono1 {
+  font-size: 35px;
+  margin-top: -75px;
+  margin-right: 100px;
+  margin-left: -80px;
+}
+
+#icono2 {
+  font-size: 35px;
+  margin-top: -80px;
+  margin-left: 350px;
+}
+
+.post-image img {
+  width: 500px;
+  height: 400px;
+  margin-left: -100px;
+  margin-top: -25px;
+  object-fit: cover;
+}
+
+.post-icons {
+  display: flex;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.post-icon {
+  margin-left: 10px;
+}
+
+.post-icon:first-child {
+  margin-left: -82px;
+}
+
+.post-icon:last-child {
+  margin-left: auto;
+}
+
+.post-likes, .post-comments {
+  margin-left: -85px;
+}
+
+.post-likes {
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.post-comments p {
+  margin: 0;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.post-comments p:not(:first-child) {
+  margin-top: 1px;
+}
